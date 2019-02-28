@@ -45,4 +45,4 @@ BSTU, Organic Technology, Engineer chemist technologist
 
 
 ### English level
-I have **A2** level. I taught English at school, university and at various online [courses](https://www.englishdom.com). Currently I’m working to improve my level of English to B2.
+I have **A2** level. I studied English at school, university and at various online [courses](https://www.englishdom.com). Currently I’m working to improve my level of English to B2.
