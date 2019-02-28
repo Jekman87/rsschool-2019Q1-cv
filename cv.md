@@ -1,7 +1,7 @@
 # CV Junior Front-End Developer
 
 # Yauhen Paliakou
-![Photo](https://jekman87.github.io/rz/avatar.jpg)
+![Photo](https://jekman87.github.io/rsschool-2019Q1-cv/avatar.jpg)
 
 ### Contacts:
 * Belarus, Minsk
