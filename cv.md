@@ -36,3 +36,10 @@ Book "PHP for Dummies" and "MySQL 5.0. Library programmer" V. Holtzman
 Video course “Php programming on the Zend Framework. Evgeny Popov"
 I read a book “JavaScript language. Ilya Kantor"
 Started a JavaScript / Front-end course at The Rolling Scopes School
+
+Education
+BSTU, Organic Technology, Engineer chemist technologist
+
+
+English level
+I have A2 level. I taught English at school, university and at various online [courses](https://www.englishdom.com). Currently I’m working to improve my level of English to B2.
