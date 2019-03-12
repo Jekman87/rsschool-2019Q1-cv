@@ -67,6 +67,10 @@ a:hover {
   color: azure;
 }
 
+.page-nav__list a:hover {
+  color: lightseagreen;
+}
+
 .contact-container {
   display: flex;
   justify-content: space-between;
