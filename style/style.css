@@ -1,30 +1,33 @@
 @import url("fonts.css");
 
-body {  
+body {
   font-size: 18px;
-  font-family: "Lato-Regular", "Arial", sans-serif;
-  background: #e1e0db;
   line-height: 24px;
+  font-family: "Lato-Regular", "Arial", sans-serif;
   text-align: justify;
+
+  background: #e1e0db;
 }
 
 h1 {
+  margin: 30px 10px 20px;
+
+  font-weight: 700;
   font-size: 30px;
   line-height: 32px;
   font-family: "MavenPro-Regular", "Arial", sans-serif;
   text-align: center;
-  margin: 30px 10px 20px;
-  font-weight: 700;
   color: darkslategray;
 }
 
 h2 {
+  margin: 10px;
+
+  font-weight: 700;
   font-size: 24px;
   font-family: "MavenPro-Regular", "Arial", sans-serif;
-  margin: 10px;
-  text-transform: uppercase;
-  font-weight: 700;
   color: darkcyan;
+  text-transform: uppercase;
 }
 
 ul {
@@ -32,8 +35,8 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: steelblue;
+  text-decoration: none;
 }
 
 a:hover {
@@ -43,6 +46,7 @@ a:hover {
 .content-container {
   max-width: 1024px;
   margin: 0 auto;
+
   background: #f4f3f4;
 }
 
@@ -51,11 +55,13 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
-  margin-left: 0;
   min-height: 40px;
-  background: dimgrey;
+  margin-left: 0;
   padding: 10px;
+
+  list-style: none;
+
+  background: dimgrey;
 }
 
 .page-nav__list li {
@@ -63,8 +69,8 @@ a:hover {
 }
 
 .page-nav__list a {
-  text-decoration: none;
   color: azure;
+  text-decoration: none;
 }
 
 .page-nav__list a:hover {
@@ -73,23 +79,24 @@ a:hover {
 
 .contact-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 
-.contact-container__avatar {  
+.contact-container__avatar {
   border-radius: 10px;
 }
 
-.contact-container__contacts{
+.contact-container__contacts {
   width: 40%;
 }
 
 .contact-container__contacts ul {
-  list-style: none;
   margin-left: 0;
+
+  list-style: none;
 }
 
 .contact__icon {
@@ -101,16 +108,19 @@ a:hover {
 }
 
 .info-block {
-  padding: 15px;
   margin: 10px 20px;
+  padding: 15px;
+  overflow: hidden;
+
   border: 2px solid gray;
   border-radius: 10px;
-  overflow: hidden;
 }
 
-.footer {   
+.footer {
   min-height: 30px;
-  background: dimgrey;
   padding: 10px;
+
   color: azure;
+
+  background: dimgrey;
 }
