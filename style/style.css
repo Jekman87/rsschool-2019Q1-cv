@@ -5,25 +5,18 @@ body {
   font-family: "Lato-Regular", "Arial", sans-serif;
   background: #e1e0db;
   line-height: 24px;
-  
-}
-
-.content {
-  max-width: 1024px;
-  margin: 0 auto;
-  background: #f4f3f4;
+  text-align: justify;
 }
 
 h1 {
   font-size: 30px;
+  line-height: 32px;
   font-family: "MavenPro-Regular", "Arial", sans-serif;
   text-align: center;
   margin: 30px 10px 20px;
   font-weight: 700;
   color: darkslategray;
 }
-
-
 
 h2 {
   font-size: 24px;
@@ -32,6 +25,25 @@ h2 {
   text-transform: uppercase;
   font-weight: 700;
   color: darkcyan;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+.content-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #f4f3f4;
 }
 
 .page-nav__list {
@@ -44,11 +56,6 @@ h2 {
   min-height: 40px;
   background: dimgrey;
   padding: 10px;
-  
-  max-width: 1024px;
-  margin: 0 auto;
-  
-
 }
 
 .page-nav__list li {
@@ -58,16 +65,9 @@ h2 {
 .page-nav__list a {
   text-decoration: none;
   color: azure;
-  
 }
 
-a:hover {
-    color: lightseagreen;
-}
-
-
-
-.header-container {
+.contact-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -75,43 +75,28 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.avatar {
-  
+.contact-container__avatar {  
   border-radius: 10px;
 }
 
-
-
-
-ul {
-  margin-left: 20px;
-}
-
-
-.contacts{
+.contact-container__contacts{
   width: 40%;
-  
 }
 
-.contacts ul {
+.contact-container__contacts ul {
   list-style: none;
   margin-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: teal;
 }
 
 .contact__icon {
   color: darkcyan;
 }
 
-.contacts li:hover .contact__icon {
+.contact-container__contacts li:hover .contact__icon {
   color: #35609f;
 }
 
-.info {
+.info-block {
   padding: 15px;
   margin: 10px 20px;
   border: 2px solid gray;
@@ -119,3 +104,9 @@ a {
   overflow: hidden;
 }
 
+.footer {   
+  min-height: 30px;
+  background: dimgrey;
+  padding: 10px;
+  color: azure;
+}
