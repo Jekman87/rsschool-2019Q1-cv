@@ -1,7 +1,70 @@
-body {
-  width: 1024px;
-  margin: 0 auto;
+@import url("fonts.css");
+
+body {  
+  font-size: 18px;
+  font-family: "Lato-Regular", "Arial", sans-serif;
+  background: #e1e0db;
+  line-height: 24px;
+  
 }
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #f4f3f4;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "MavenPro-Regular", "Arial", sans-serif;
+  text-align: center;
+  margin: 30px 10px 20px;
+  font-weight: 700;
+  color: darkslategray;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  font-family: "MavenPro-Regular", "Arial", sans-serif;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: darkcyan;
+}
+
+.page-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: 0;
+  min-height: 40px;
+  background: dimgrey;
+  padding: 10px;
+  
+  max-width: 1024px;
+  margin: 0 auto;
+  
+
+}
+
+.page-nav__list li {
+  margin: 10px;
+}
+
+.page-nav__list a {
+  text-decoration: none;
+  color: azure;
+  
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
 
 
 .header-container {
@@ -13,14 +76,48 @@ body {
 }
 
 .avatar {
-  display: block;
   
+  border-radius: 10px;
+  width: 220px;
+  height: 220px;
 }
 
-.contacts{
-  width: 30%;
-}
+
+
 
 ul {
+  margin-left: 20px;
+}
+
+
+.contacts{
+  width: 40%;
   
 }
+
+.contacts ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact__icon {
+  color: darkcyan;
+}
+
+.contacts li:hover .contact__icon {
+  color: #35609f;
+}
+
+.info {
+  padding: 15px;
+  margin: 10px 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
